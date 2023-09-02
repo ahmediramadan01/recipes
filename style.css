@@ -133,6 +133,10 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/waffles-image.jpeg");
 }
 
+.hero__pancakes {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/pancakes-image.jpeg");
+}
+
 .hero-heading {
     padding: 13.3rem 27.1rem;
     color: var(--white-100);
@@ -321,11 +325,15 @@ body {
 }
 
 .recipe__instructions--steps {
-    padding: 0 2.8rem;
+    padding: 0 4.6rem;
 }
 
 .recipe__instructions--steps li:not(:last-child) {
     margin-bottom: 1.2rem;
+}
+
+.recipe__instructions--additional {
+    line-height: 1.6;
 }
 
 /* Footer */
