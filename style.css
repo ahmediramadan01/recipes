@@ -136,8 +136,10 @@ body {
 /* Main */
 
 .main {
-    padding: 8.8rem 7.7rem;
+    padding: 8.8rem 0;
 }
+
+/* Recipes */
 
 .main-heading {
     text-align: center;
@@ -147,8 +149,16 @@ body {
     margin-bottom: 5.8rem;
 }
 
+/* Popular Recipes */
+.popular-recipes {
+    padding: 0 7.7rem;
+}
+
 .recipes__cards {
     display: grid;
+}
+
+.recipes__cards--popular {
     grid-template-columns: repeat(3, 1fr);
     gap: 3.8rem;
 }
@@ -159,9 +169,12 @@ body {
 }
 
 .recipe__card-image {
-    height: 21.2rem;
     background-size: cover;
     background-position: center;
+}
+
+.recipe__card-image--popular {
+    height: 21.2rem;
 }
 
 .recipe__card-image__waffles {
@@ -181,10 +194,17 @@ body {
     padding: 2.9rem 3.8rem;
 }
 
+.recipe__card-description--popular {
+    padding: 2.9rem 3.8rem;
+}
+
 .recipe__card-title {
     color: var(--neutral-800);
-    font-size: 3.2rem;
     font-weight: 700;
+}
+
+.recipe__card-title--popular {
+    font-size: 3.2rem;
     margin-bottom: 1.8rem;
 }
 
@@ -197,6 +217,7 @@ body {
 
 .recipe__card-link:link,
 .recipe__card-link:visited {
+    display: inline-block;
     text-decoration: none;
     color: var(--neutral-800);
     font-size: 2.1rem;
@@ -211,6 +232,49 @@ body {
 .recipe__card-link:active {
     color: var(--neutral-950);
     background-color: #e6c559;
+}
+
+/* Recent Recipes  */
+.recent-recipes {
+    padding: 0 12.7rem;
+}
+
+.recent-recipes {
+    margin-top: 12.2rem;
+}
+
+.recipe__card--recent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.recipe__card--recent:not(:last-child) {
+    margin-bottom: 6.5rem;
+}
+
+.recipe__card-image--recent {
+    width: 100%;
+}
+
+.recipe__card-image__donut {
+    background-image: url("./images/donut-image.jpeg");
+}
+
+.recipe__card-image__cereal {
+    background-image: url("./images/cereal-image.jpeg");
+}
+
+.recipe__card-image__cookies {
+    background-image: url("./images/cookies-image.jpeg");
+}
+
+.recipe__card-description--recent {
+    padding: 4.8rem;
+}
+
+.recipe__card-title--recent {
+    font-size: 4rem;
+    margin-bottom: 4.1rem;
 }
 
 /* Footer */
