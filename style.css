@@ -5,6 +5,7 @@
     --neutral-800: #2c2b2b;
     --white-200: #f5f2f2;
     --neutral-400: #858585;
+    --white-100: #fff;
 }
 
 * {
@@ -112,4 +113,20 @@ body {
 
 .search__field:focus {
     color: var(--neutral-800);
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero-image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-heading {
+    padding: 13.3rem 27.1rem;
+    color: var(--white-100);
+    font-size: 4rem;
+    font-weight: 700;
 }
