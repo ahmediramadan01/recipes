@@ -121,9 +121,16 @@ body {
 
 .hero {
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero-image.jpeg);
     background-size: cover;
     background-position: center;
+}
+
+.hero__home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero-image.jpeg");
+}
+
+.hero__waffles {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/waffles-image.jpeg");
 }
 
 .hero-heading {
@@ -291,6 +298,34 @@ body {
 
 .about__paragraph:not(:last-child) {
     margin-bottom: 4rem;
+}
+
+/* Recipe */
+.recipe {
+    color: var(--neutral-800);
+    font-size: 2.4rem;
+}
+
+.recipe__instructions--box:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+.recipe__instructions--title {
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+}
+
+.recipe__instructions--steps,
+.recipe__instructions--additional {
+    font-weight: 400;
+}
+
+.recipe__instructions--steps {
+    padding: 0 2.8rem;
+}
+
+.recipe__instructions--steps li:not(:last-child) {
+    margin-bottom: 1.2rem;
 }
 
 /* Footer */
