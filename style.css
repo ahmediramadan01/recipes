@@ -137,6 +137,10 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/pancakes-image.jpeg");
 }
 
+.hero__hot-chocolate {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hot-chocolate-image.jpeg");
+}
+
 .hero-heading {
     padding: 13.3rem 27.1rem;
     color: var(--white-100);
