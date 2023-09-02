@@ -6,6 +6,7 @@
     --white-200: #f5f2f2;
     --neutral-400: #858585;
     --white-100: #fff;
+    --neutral-950: #000;
 }
 
 * {
@@ -129,4 +130,83 @@ body {
     color: var(--white-100);
     font-size: 4rem;
     font-weight: 700;
+}
+
+/* Main */
+
+.main {
+    padding: 8.8rem 7.7rem;
+}
+
+.main-heading {
+    text-align: center;
+    color: var(--neutral-800);
+    font-size: 3.9rem;
+    font-weight: 700;
+    margin-bottom: 5.8rem;
+}
+
+.recipes__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.8rem;
+}
+
+.recipe__card {
+    border-radius: 3.3rem;
+    overflow: hidden;
+}
+
+.recipe__card-image {
+    height: 21.2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.recipe__card-image__waffles {
+    background-image: url("./images/waffles-image.jpeg");
+}
+
+.recipe__card-image__pancakes {
+    background-image: url("./images/pancakes-image.jpeg");
+}
+
+.recipe__card-image__hot-chocolate {
+    background-image: url("./images/hot-chocolate-image.jpeg");
+}
+
+.recipe__card-description {
+    background: var(--white-200);
+    padding: 2.9rem 3.8rem;
+}
+
+.recipe__card-title {
+    color: var(--neutral-800);
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+.recipe__card-text {
+    color: var(--neutral-800);
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-bottom: 4.1rem;
+}
+
+.recipe__card-link:link,
+.recipe__card-link:visited {
+    text-decoration: none;
+    color: var(--neutral-800);
+    font-size: 2.1rem;
+    font-weight: 700;
+    background-color: var(--yellow-300);
+    padding: 9px 3.3rem;
+    border-radius: 3.2rem;
+    transition: all 0.3s;
+}
+.recipe__card-link:hover,
+.recipe__card-link:active {
+    color: var(--neutral-950);
+    background-color: #e6c559;
 }
