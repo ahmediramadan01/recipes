@@ -308,6 +308,7 @@ body {
 .recipe {
     color: var(--neutral-800);
     font-size: 2.4rem;
+    padding: 0 14.4rem;
 }
 
 .recipe__instructions--box:not(:last-child) {
