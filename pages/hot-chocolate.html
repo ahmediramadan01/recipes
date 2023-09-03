@@ -17,29 +17,33 @@
     </head>
     <body>
         <header class="header">
-            <figure class="header__logo">
-                <img src="../images/logo-icon.svg" alt="Delícias à Mesa's icon" class="header__logo-icon" />
-                <figcaption class="header__logo-title">Delícias à Mesa</figcaption>
-            </figure>
-            <nav class="nav">
-                <ul class="nav__links">
-                    <li><a href="../index.html" class="nav__link">Home</a></li>
-                    <li><a href="./recipes.html" class="nav__link">Recipes</a></li>
-                    <li><a href="./about.html" class="nav__link">About Us</a></li>
-                </ul>
-            </nav>
-            <form class="search">
-                <button class="search__button">
-                    <img src="../images/search-icon.svg" alt="Search icon" class="search__button-icon" />
-                </button>
-                <input type="text" placeholder="Find a recipe" class="search__field" />
-            </form>
+            <div class="container header__container">
+                <figure class="header__logo">
+                    <img src="../images/logo-icon.svg" alt="Delícias à Mesa's icon" class="header__logo-icon" />
+                    <figcaption class="header__logo-title">Delícias à Mesa</figcaption>
+                </figure>
+                <nav class="nav">
+                    <ul class="nav__links">
+                        <li><a href="../index.html" class="nav__link">Home</a></li>
+                        <li><a href="./recipes.html" class="nav__link">Recipes</a></li>
+                        <li><a href="./about.html" class="nav__link">About Us</a></li>
+                    </ul>
+                </nav>
+                <form class="search">
+                    <button class="search__button">
+                        <img src="../images/search-icon.svg" alt="Search icon" class="search__button-icon" />
+                    </button>
+                    <input type="text" placeholder="Find a recipe" class="search__field" />
+                </form>
+            </div>
         </header>
         <section class="hero hero__hot-chocolate">
-            <h1 class="hero-heading">Hot Chocolate</h1>
+            <div class="container">
+                <h1 class="hero-heading">Hot Chocolate</h1>
+            </div>
         </section>
         <main class="main">
-            <div class="recipe">
+            <div class="recipe container">
                 <div class="recipe__instructions--box">
                     <h2 class="recipe__instructions--title">Ingredients:</h2>
                     <ul class="recipe__instructions--steps">
@@ -82,46 +86,48 @@
             </div>
         </main>
         <footer class="footer">
-            <figure class="footer__logo">
-                <img src="../images/logo-icon.svg" alt="Delícias à Mesa's icon" class="footer__logo-icon" />
-                <figcaption class="footer__logo-title">Delícias à Mesa</figcaption>
-            </figure>
-            <div class="footer__social-media">
-                <p class="footer__social-media__title">Social Media:</p>
-                <ul class="footer__social-media__links">
-                    <li>
-                        <a href="" class="footer__social-media__link">
-                            <img
-                                src="../images/youtube-icon.svg"
-                                alt="YouTube icon"
-                                class="footer__social-media__icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="footer__social-media__link">
-                            <img
-                                src="../images/twitter-icon.svg"
-                                alt="Twitter icon"
-                                class="footer__social-media__icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="footer__social-media__link">
-                            <img
-                                src="../images/browser-icon.svg"
-                                alt="Browser icon"
-                                class="footer__social-media__icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="footer__social-media__link">
-                            <img
-                                src="../images/pinterest-icon.svg"
-                                alt="Pinterest icon"
-                                class="footer__social-media__icon" />
-                        </a>
-                    </li>
-                </ul>
+            <div class="container footer__container">
+                <figure class="footer__logo">
+                    <img src="../images/logo-icon.svg" alt="Delícias à Mesa's icon" class="footer__logo-icon" />
+                    <figcaption class="footer__logo-title">Delícias à Mesa</figcaption>
+                </figure>
+                <div class="footer__social-media">
+                    <p class="footer__social-media__title">Social Media:</p>
+                    <ul class="footer__social-media__links">
+                        <li>
+                            <a href="#" class="footer__social-media__link">
+                                <img
+                                    src="../images/youtube-icon.svg"
+                                    alt="YouTube icon"
+                                    class="footer__social-media__icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__social-media__link">
+                                <img
+                                    src="../images/twitter-icon.svg"
+                                    alt="Twitter icon"
+                                    class="footer__social-media__icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__social-media__link">
+                                <img
+                                    src="../images/browser-icon.svg"
+                                    alt="Browser icon"
+                                    class="footer__social-media__icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__social-media__link">
+                                <img
+                                    src="../images/pinterest-icon.svg"
+                                    alt="Pinterest icon"
+                                    class="footer__social-media__icon" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>
