@@ -1,4 +1,4 @@
-/* Default Styles */
+/* General Styles */
 
 :root {
     --yellow-100: #ffe9a1;
@@ -31,7 +31,7 @@ body {
     margin: 0 auto;
 }
 
-/* Header */
+/* Header Styles */
 
 .header {
     border-top: 3rem solid var(--yellow-300);
@@ -121,7 +121,7 @@ body {
     color: var(--neutral-800);
 }
 
-/* Hero */
+/* Hero Styles */
 
 .hero {
     text-align: center;
@@ -152,13 +152,13 @@ body {
     font-weight: 700;
 }
 
-/* Main */
+/* Main Styles */
 
 .main {
     padding: 8.8rem 0;
 }
 
-/* Recipes */
+/* Recipes Styles */
 
 .main-heading {
     text-align: center;
@@ -168,7 +168,7 @@ body {
     margin-bottom: 5.8rem;
 }
 
-/* Popular Recipes */
+/* Popular Recipes Styles */
 
 .popular-recipes {
     padding: 0 7.7rem;
@@ -254,7 +254,7 @@ body {
     background-color: #e6c559;
 }
 
-/* Recent Recipes  */
+/* Recent Recipes Styles  */
 
 .recent-recipes {
     padding: 0 12.7rem;
@@ -295,7 +295,7 @@ body {
     margin-bottom: 4.1rem;
 }
 
-/* About Us */
+/* About Us Styles */
 
 .about {
     padding: 0 14.4rem;
@@ -312,7 +312,7 @@ body {
     margin-bottom: 4rem;
 }
 
-/* Recipe */
+/* Recipe Styles */
 
 .recipe {
     color: var(--neutral-800);
@@ -346,7 +346,7 @@ body {
     line-height: 1.6;
 }
 
-/* Footer */
+/* Footer Styles */
 
 .footer {
     background-color: var(--yellow-300);
