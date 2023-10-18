@@ -1,8 +1,6 @@
-# Delícias à Mesa: **[LIVE](https://ahmediramadan01.github.io/delights-recipes/ "Delícias à Mesa's Live Preview")**
+# Delícias à Mesa: **[LIVE](https://ahmediramadan01.github.io/delights-recipes-html-css/ "Delícias à Mesa's Live Preview")**
 
-## Food recipes website UI
-
-### Technologies: HTML, CSS
+## Food recipes website UI built using: HTML, CSS
 
 ![Delícias à Mesa's Desktop Screenshot](./images/delights-recipes-desktop.png?raw=true "Delícias à Mesa (Desktop)")
 
