@@ -1,7 +1,7 @@
-# Delícias à Mesa: **[LIVE](https://ahmediramadan01.github.io/delights-recipes-html-css/ "Delícias à Mesa's Live Preview")**
+# Recipes: **[LIVE](https://ahmediramadan01.github.io/recipes/ "Recipes's Live Preview")**
 
-## Food recipes website UI built using: HTML, CSS
+## Technologies: HTML, CSS
 
-![Delícias à Mesa's Desktop Screenshot](./images/delights-recipes-desktop.png?raw=true "Delícias à Mesa (Desktop)")
+![Recipes's Desktop Screenshot](./images/delights-recipes-desktop.png?raw=true "Recipes (Desktop)")
 
-Original Figma Design: [Delícias à Mesa](https://www.figma.com/community/file/1250914248165905105 "Delícias à Mesa's Figma Design")
+Original Figma Design: [Recipes](https://www.figma.com/community/file/1250914248165905105 "Recipes's Figma Design")

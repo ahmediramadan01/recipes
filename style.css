@@ -1,411 +1,411 @@
 /* General Styles */
 
 :root {
-    --yellow-100: #ffe9a1;
-    --yellow-300: #ffdb63;
-    --neutral-800: #2c2b2b;
-    --white-200: #f5f2f2;
-    --neutral-400: #858585;
-    --white-100: #fff;
-    --neutral-950: #000;
+  --yellow-100: #ffe9a1;
+  --yellow-300: #ffdb63;
+  --neutral-800: #2c2b2b;
+  --white-200: #f5f2f2;
+  --neutral-400: #858585;
+  --white-100: #fff;
+  --neutral-950: #000;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    max-width: 144rem;
-    margin: 0 auto;
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 /* Header Styles */
 
 .header {
-    border-top: 3rem solid var(--yellow-300);
+  border-top: 3rem solid var(--yellow-300);
 }
 
 .header__container {
-    padding: 3.4rem 7.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4.6rem;
+  padding: 3.4rem 7.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.6rem;
 }
 
 .header__logo {
-    display: flex;
-    align-items: center;
-    gap: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
 }
 
 .header__logo-icon {
-    width: 2.8rem;
+  width: 2.8rem;
 }
 
 .header__logo-title {
-    color: var(--neutral-800);
-    text-align: center;
-    font-size: 2.6rem;
-    font-weight: 500;
+  color: var(--neutral-800);
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 500;
 }
 
 .nav__links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 4.6rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.6rem;
 }
 
 .nav__link:link,
 .nav__link:visited {
-    text-decoration: none;
-    color: var(--neutral-800);
-    text-align: center;
-    font-size: 2.6rem;
-    font-weight: 700;
-    padding-bottom: 5px;
-    border-bottom: 3px solid transparent;
-    transition: all 0.3s;
+  text-decoration: none;
+  color: var(--neutral-800);
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
 }
 
 .nav__link:hover,
 .nav__link:active {
-    border-bottom: 3px solid currentColor;
+  border-bottom: 3px solid currentColor;
 }
 
 .search {
-    background: var(--white-200);
-    border-radius: 2.25rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1.3rem 0 1.3rem 2.3rem;
+  background: var(--white-200);
+  border-radius: 2.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.3rem 0 1.3rem 2.3rem;
 }
 
 .search__button {
-    cursor: pointer;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search__button-icon {
-    width: 1.7rem;
-    fill: var(--neutral-400);
+  width: 1.7rem;
+  fill: var(--neutral-400);
 }
 
 .search__field {
-    border: none;
-    outline: none;
-    background: none;
-    color: var(--neutral-400);
-    font-size: 1.5rem;
-    font-weight: 300;
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--neutral-400);
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .search__field:focus {
-    color: var(--neutral-800);
+  color: var(--neutral-800);
 }
 
 /* Hero Styles */
 
 .hero {
-    text-align: center;
-    background-size: cover;
-    background-position: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero__home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero-image.jpeg");
 }
 
 .hero__waffles {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/waffles-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/waffles-image.jpeg");
 }
 
 .hero__pancakes {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/pancakes-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/pancakes-image.jpeg");
 }
 
 .hero__hot-chocolate {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hot-chocolate-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hot-chocolate-image.jpeg");
 }
 
 .hero-heading {
-    padding: 13.3rem 27.1rem;
-    color: var(--white-100);
-    font-size: 4rem;
-    font-weight: 700;
+  padding: 13.3rem 27.1rem;
+  color: var(--white-100);
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 /* Main Styles */
 
 .main {
-    padding: 8.8rem 0;
+  padding: 8.8rem 0;
 }
 
 /* Recipes Styles */
 
 .main-heading {
-    text-align: center;
-    color: var(--neutral-800);
-    font-size: 3.9rem;
-    font-weight: 700;
-    margin-bottom: 5.8rem;
+  text-align: center;
+  color: var(--neutral-800);
+  font-size: 3.9rem;
+  font-weight: 700;
+  margin-bottom: 5.8rem;
 }
 
 /* Popular Recipes Styles */
 
 .popular-recipes {
-    padding: 0 7.7rem;
+  padding: 0 7.7rem;
 }
 
 .recipes__cards {
-    display: grid;
+  display: grid;
 }
 
 .recipes__cards--popular {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3.8rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.8rem;
 }
 
 .recipe__card {
-    border-radius: 3.3rem;
-    overflow: hidden;
+  border-radius: 3.3rem;
+  overflow: hidden;
 }
 
 .recipe__card-image {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .recipe__card-image--popular {
-    height: 21.2rem;
+  height: 21.2rem;
 }
 
 .recipe__card-image__waffles {
-    background-image: url("./images/waffles-image.jpeg");
+  background-image: url("./images/waffles-image.jpeg");
 }
 
 .recipe__card-image__pancakes {
-    background-image: url("./images/pancakes-image.jpeg");
+  background-image: url("./images/pancakes-image.jpeg");
 }
 
 .recipe__card-image__hot-chocolate {
-    background-image: url("./images/hot-chocolate-image.jpeg");
+  background-image: url("./images/hot-chocolate-image.jpeg");
 }
 
 .recipe__card-description {
-    background: var(--white-200);
-    padding: 2.9rem 3.8rem;
+  background: var(--white-200);
+  padding: 2.9rem 3.8rem;
 }
 
 .recipe__card-description--popular {
-    padding: 2.9rem 3.8rem;
+  padding: 2.9rem 3.8rem;
 }
 
 .recipe__card-title {
-    color: var(--neutral-800);
-    font-weight: 700;
+  color: var(--neutral-800);
+  font-weight: 700;
 }
 
 .recipe__card-title--popular {
-    font-size: 3.2rem;
-    margin-bottom: 1.8rem;
+  font-size: 3.2rem;
+  margin-bottom: 1.8rem;
 }
 
 .recipe__card-text {
-    color: var(--neutral-800);
-    font-size: 2.1rem;
-    font-weight: 400;
-    margin-bottom: 4.1rem;
+  color: var(--neutral-800);
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-bottom: 4.1rem;
 }
 
 .recipe__card-link:link,
 .recipe__card-link:visited {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--neutral-800);
-    font-size: 2.1rem;
-    font-weight: 700;
-    background-color: var(--yellow-300);
-    padding: 9px 3.3rem;
-    border-radius: 3.2rem;
-    transition: all 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--neutral-800);
+  font-size: 2.1rem;
+  font-weight: 700;
+  background-color: var(--yellow-300);
+  padding: 9px 3.3rem;
+  border-radius: 3.2rem;
+  transition: all 0.3s;
 }
 
 .recipe__card-link:hover,
 .recipe__card-link:active {
-    color: var(--neutral-950);
-    background-color: #e6c559;
+  color: var(--neutral-950);
+  background-color: #e6c559;
 }
 
 /* Recent Recipes Styles  */
 
 .recent-recipes {
-    padding: 0 12.7rem;
-    margin-top: 12.2rem;
+  padding: 0 12.7rem;
+  margin-top: 12.2rem;
 }
 
 .recipe__card--recent {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .recipe__card--recent:not(:last-child) {
-    margin-bottom: 6.5rem;
+  margin-bottom: 6.5rem;
 }
 
 .recipe__card-image--recent {
-    width: 100%;
+  width: 100%;
 }
 
 .recipe__card-image__donut {
-    background-image: url("./images/donut-image.jpeg");
+  background-image: url("./images/donut-image.jpeg");
 }
 
 .recipe__card-image__cereal {
-    background-image: url("./images/cereal-image.jpeg");
+  background-image: url("./images/cereal-image.jpeg");
 }
 
 .recipe__card-image__cookies {
-    background-image: url("./images/cookies-image.jpeg");
+  background-image: url("./images/cookies-image.jpeg");
 }
 
 .recipe__card-description--recent {
-    padding: 4.8rem;
+  padding: 4.8rem;
 }
 
 .recipe__card-title--recent {
-    font-size: 4rem;
-    margin-bottom: 4.1rem;
+  font-size: 4rem;
+  margin-bottom: 4.1rem;
 }
 
 /* About Us Styles */
 
 .about {
-    padding: 0 14.4rem;
+  padding: 0 14.4rem;
 }
 
 .about__paragraph {
-    color: --var(--neutral-950);
-    font-size: 3.1rem;
-    font-weight: 400;
-    line-height: 1.6;
+  color: --var(--neutral-950);
+  font-size: 3.1rem;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .about__paragraph:not(:last-child) {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 /* Recipe Styles */
 
 .recipe {
-    color: var(--neutral-800);
-    font-size: 2.4rem;
-    padding: 0 14.4rem;
+  color: var(--neutral-800);
+  font-size: 2.4rem;
+  padding: 0 14.4rem;
 }
 
 .recipe__instructions--box:not(:last-child) {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .recipe__instructions--title {
-    font-weight: 700;
-    margin-bottom: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
 }
 
 .recipe__instructions--steps,
 .recipe__instructions--additional {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .recipe__instructions--steps {
-    padding: 0 4.6rem;
+  padding: 0 4.6rem;
 }
 
 .recipe__instructions--steps li:not(:last-child) {
-    margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .recipe__instructions--additional {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 /* Footer Styles */
 
 .footer {
-    background-color: var(--yellow-300);
+  background-color: var(--yellow-300);
 }
 
 .footer__container {
-    padding: 8.5rem 7.7rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 27rem;
+  padding: 8.5rem 7.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 27rem;
 }
 
 .footer__logo {
-    display: flex;
-    align-items: center;
-    gap: 2.13rem;
+  display: flex;
+  align-items: center;
+  gap: 2.13rem;
 }
 
 .footer__logo-icon {
-    width: 5rem;
+  width: 5rem;
 }
 
 .footer__logo-title {
-    color: var(--neutral-800);
-    text-align: center;
-    font-size: 4.6rem;
-    font-weight: 600;
+  color: var(--neutral-800);
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 600;
 }
 
 .footer__social-media__title {
-    color: var(--neutral-950);
-    font-size: 2.6rem;
-    font-weight: 600;
-    margin-bottom: 2.7rem;
+  color: var(--neutral-950);
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 2.7rem;
 }
 
 .footer__social-media__links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .footer__social-media__link:link,
 .footer__social-media__links:visited {
-    padding: 6px;
-    background-color: var(--yellow-100);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
-    transition: all 0.1s;
+  padding: 6px;
+  background-color: var(--yellow-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  transition: all 0.1s;
 }
 
 .footer__social-media__link:hover,
 .footer__social-media__links:active {
-    background-color: #e6d291;
+  background-color: #e6d291;
 }
 
 .footer__social-media__icon {
-    width: 3.2rem;
+  width: 3.2rem;
 }
